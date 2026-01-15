@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+MANIFEST
+
+# Virtual Environment (UV)
+.venv/
+venv/
+.python-version
+uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (décommenter si vous voulez versionner les CSV)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Models (fichiers de modèles entraînés)
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Jupyter execution
+.jupyter/
+
+# MLflow
+mlruns/
+mlartifacts/
